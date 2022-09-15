@@ -1,10 +1,44 @@
 
 /* --------
-reset
+    RESET
 ---------- */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/*--------------
+    COMMON
+---------------*/
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body{
+    background-color: fffffe;
+    font-family: 'Fredoka One', cursive;
+  
+}
+
+.title {
+    color: #E53170;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+
+#description{
+    /* display: inline-block; */
+    text-align: center;
+}
+
+.container{
+    max-width: 1150px;
+    margin: auto;
+    background-color: #E53170;
 }
 
