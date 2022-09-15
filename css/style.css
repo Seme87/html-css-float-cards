@@ -24,6 +24,10 @@ body{
   
 }
 
+/*--------------
+TITOLO E PARAGRAFO
+---------------*/
+
 .title {
     color: #E53170;
     text-align: center;
@@ -38,9 +42,37 @@ body{
   margin-bottom: 55px;
 }
 
+/*--------------
+   CONTAINER
+---------------*/
+
 .container{
     max-width: 1150px;
     margin: auto;
     background-color: #E53170;
 }
 
+.card{
+    float: left;
+    color: white ;
+
+}
+
+img{
+    float: left;
+ }
+
+ h3{
+    float: left;
+    padding-top: 16px;
+    margin-left: 20px;
+    font-size: 1.20em;
+ }
+
+ h4{
+    margin-left: 16px;
+   
+  
+ }
+
+ 
