@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: fffffe;
+    /* background-color: fffffe; */
     font-family: 'Fredoka One', cursive;
     
   
@@ -47,48 +47,58 @@ TITOLO E PARAGRAFO
 ---------------*/
 
 .container{
-    max-width: 1150px;
+    max-width: 1200px;
     margin: auto;
-    background-color: #E53170;
+    /* background-color: #E53170; */
 }
 
 .card{
     float: left;
     color: white ;
     margin: 0 15px;
-    width: calc(33%-30px);
+    width: calc(33% - 30px);
     background-color: black;
+    /* border-radius: 5px; */
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
+
+
+
 .contenuto{
     float: left;
-    margin-top: 40px;
+    margin-top: 15px;
+
+
     
 }
 
 img{
     float: left;
+    width: 100px;
+    height: 100px;
  }
 
  h3{
     /* float: left; */
-    padding-top: 16px;
+    /* padding-top: 16px; */
     margin-left: 20px;
     font-size: 1.20em;
  }
 
 h4{
     margin-left: 20px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 a{
     margin-top: 16px;
     margin-left: 20px;
-    font-size: 1.10em;
+    font-size: 1.0em;
     text-decoration: none;
-    color: white;
+    color: rgb(53 211 227);
 }
  
