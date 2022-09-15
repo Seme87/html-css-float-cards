@@ -58,6 +58,10 @@ TITOLO E PARAGRAFO
 
 }
 
+.contenuto{
+    float: left;
+}
+
 img{
     float: left;
  }
@@ -71,6 +75,7 @@ img{
 
  h4{
     margin-left: 16px;
+   
    
   
  }
